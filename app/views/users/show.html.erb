@@ -1,0 +1,14 @@
+
+<html lang="en">
+	<head>
+	    <title>New</title>
+	</head>
+	<body>
+			<p>First Name: <%= @user.first_name %></p>
+			<p>Last Name: <%= @user.last_name %></p>
+			<p>Email: <%= @user.email_address %></p>
+			<a href="/users/<%= @user.id %>/edit">Edit</a>
+			<a href="<%= users_path %>">Back</a>
+	</body>
+</html>
+	
